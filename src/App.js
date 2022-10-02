@@ -1,12 +1,10 @@
 import { BrowserRouter , Route, Routes ,} from "react-router-dom";
 import {Routee} from './Routes';
-import Navbar from "./Components/Navbar/Navbar.js";
 // import { Title } from './App.style';
 function App() {
   return (
     <div className="App">
      {/* <Title>Hello Faces members</Title> */}
-     
      <BrowserRouter>
         <Routes>
           {Routee.map((items) => {
