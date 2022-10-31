@@ -4,7 +4,10 @@ function Footer() {
   return (
     <div>
 
-      Hey there i m foother
+      <h1 style={{textAlign:'center'}}>
+        Footer
+      </h1>
+
 
     </div>
   )
